@@ -76,6 +76,12 @@ body {
     height: auto;
   }
 
+  .img-toggle.visible {
+    display: block; /* Mostra l'immagine */
+  }
+  
+  
+
   .product-description {
     height: 30%;
 
@@ -85,7 +91,6 @@ body {
     font-size: 20px;
     font-weight: bold;
     height: 5%;
-
 }
 
 .container-link {
@@ -97,4 +102,13 @@ body {
     height: 100px;
     border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column
+    
+  }
+
+  #myInput {
+    height: 100px;
+    text-align: left;
+    justify-content:first baseline;
   }
